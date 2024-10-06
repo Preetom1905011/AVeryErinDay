@@ -1,8 +1,11 @@
-from flask import Flask, jsonify, request, render_template, send_from_directory
+from flask import Flask, jsonify, request, render_template
 from flask_cors import CORS
 from flask_socketio import SocketIO, emit
 from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -15,22 +18,18 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 # Connect to MongoDB (Replace the connection string with your own)
 # For local MongoDB, it could be: 'mongodb://localhost:27017/'
 # For MongoDB Atlas, use your connection string from Atlas
-client = MongoClient('mongodb+srv://biswaspkasu:TCjWdCUeVlzJu9aX@cluster0.sbayf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+
+FLASK_MONGODB_URL = os.getenv("FLASK_MONGODB_URL")
+client = MongoClient(FLASK_MONGODB_URL)
 
 # Choose the database and collection
 db = client['LetterPosts']  # Replace 'letterDB' with your preferred database name
 letters_collection = db['letters']  # Collection name
 poems_collection = db['poems']  # Collection name
 
-# Route to serve React frontend
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve(path):
-    return render_template('index.html')  # Load React's index.html from templates
-
-@app.route('/manifest.json')
-def manifest():
-    return send_from_directory('static', 'manifest.json', mimetype='application/json')
+@app.route("/", methods=['GET'])
+def render():
+    return render_template("index.html")
 
 # # API to get the letters
 # @app.route("/letters", methods=['GET'])
