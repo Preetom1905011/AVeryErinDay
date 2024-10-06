@@ -1,7 +1,8 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, send_from_directory
 from flask_cors import CORS
 from flask_socketio import SocketIO, emit
 from pymongo import MongoClient
+
 
 app = Flask(__name__)
 
@@ -26,6 +27,10 @@ poems_collection = db['poems']  # Collection name
 @app.route('/<path:path>')
 def serve(path):
     return render_template('index.html')  # Load React's index.html from templates
+
+@app.route('/manifest.json')
+def manifest():
+    return send_from_directory('static', 'manifest.json', mimetype='application/json')
 
 # # API to get the letters
 # @app.route("/letters", methods=['GET'])
