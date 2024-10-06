@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7546e29a.css",
+    "main.js": "/static/js/main.d1d35eb6.js",
+    "static/media/bj_trans1_sad.png": "/static/media/bj_trans1_sad.a2a424930790d5f92f31.png",
+    "static/media/inside_out2.png": "/static/media/inside_out2.684a1bf701c00fb11a5f.png",
+    "static/media/bj_trans1.jpg": "/static/media/bj_trans1.d04e02b8a99999146d3a.jpg",
+    "static/media/football_all.jpg": "/static/media/football_all.88a0e78aee10fd13f2e2.jpg",
+    "static/media/eclipse.jpg": "/static/media/eclipse.674be7b19ffb10b0e761.jpg",
+    "static/media/mekong.jpg": "/static/media/mekong.5efc8e82de3190196e20.jpg",
+    "static/media/boba_single.jpg": "/static/media/boba_single.bc5f7470853c916d24d9.jpg",
+    "static/media/ham_head.jpg": "/static/media/ham_head.2a01d36e7379e34bb31b.jpg",
+    "static/media/inside_out2_car.jpg": "/static/media/inside_out2_car.caf1b02549c71a2d5781.jpg",
+    "static/media/kinds_of_kindness.jpg": "/static/media/kinds_of_kindness.e3eb138a64971d3b88e4.jpg",
+    "static/media/street_car.jpg": "/static/media/street_car.cb8adacc8393351ef4fb.jpg",
+    "static/media/boba_sad.jpg": "/static/media/boba_sad.bc123341217f97f5d68f.jpg",
+    "static/media/madge.jpg": "/static/media/madge.9a8a1ffea802056e6c4f.jpg",
+    "static/media/hand.jpg": "/static/media/hand.88701e9cd45ca3d04bfc.jpg",
+    "static/media/boba_bench.jpg": "/static/media/boba_bench.975d365ceb5cd1d13288.jpg",
+    "static/media/football2.jpg": "/static/media/football2.7349928446a69c441f48.jpg",
+    "static/media/ham_names.jpg": "/static/media/ham_names.4ae23e3d38fb82ba4d21.jpg",
+    "index.html": "/index.html",
+    "main.7546e29a.css.map": "/static/css/main.7546e29a.css.map",
+    "main.d1d35eb6.js.map": "/static/js/main.d1d35eb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7546e29a.css",
+    "static/js/main.d1d35eb6.js"
+  ]
+}
