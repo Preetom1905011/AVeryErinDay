@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e8f10d18.css",
-    "main.js": "/static/js/main.4552d11e.js",
+    "main.js": "/static/js/main.8d4b3e67.js",
     "static/media/bj_trans1_sad.png": "/static/media/bj_trans1_sad.a2a424930790d5f92f31.png",
     "static/media/inside_out2.png": "/static/media/inside_out2.684a1bf701c00fb11a5f.png",
     "static/media/bj_trans1.jpg": "/static/media/bj_trans1.d04e02b8a99999146d3a.jpg",
@@ -13,6 +13,7 @@
     "static/media/inside_out2_car.jpg": "/static/media/inside_out2_car.caf1b02549c71a2d5781.jpg",
     "static/media/kinds_of_kindness.jpg": "/static/media/kinds_of_kindness.e3eb138a64971d3b88e4.jpg",
     "static/media/street_car.jpg": "/static/media/street_car.cb8adacc8393351ef4fb.jpg",
+    "static/media/eclipse_comp.jpg": "/static/media/eclipse_comp.dde70ee616b90f6604c6.jpg",
     "static/media/boba_sad.jpg": "/static/media/boba_sad.bc123341217f97f5d68f.jpg",
     "static/media/madge.jpg": "/static/media/madge.9a8a1ffea802056e6c4f.jpg",
     "static/media/hand.jpg": "/static/media/hand.88701e9cd45ca3d04bfc.jpg",
@@ -21,10 +22,10 @@
     "static/media/ham_names.jpg": "/static/media/ham_names.4ae23e3d38fb82ba4d21.jpg",
     "index.html": "/index.html",
     "main.e8f10d18.css.map": "/static/css/main.e8f10d18.css.map",
-    "main.4552d11e.js.map": "/static/js/main.4552d11e.js.map"
+    "main.8d4b3e67.js.map": "/static/js/main.8d4b3e67.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f10d18.css",
-    "static/js/main.4552d11e.js"
+    "static/js/main.8d4b3e67.js"
   ]
 }
