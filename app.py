@@ -9,7 +9,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": os.getenv("FLASK_BASE_URL")}})
+CORS(app)
 
 
 # Initialize Flask-SocketIO
