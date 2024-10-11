@@ -35,7 +35,7 @@ def render():
 
 # API to get the letters
 @app.route("/lettersAll", methods=['GET'])
-def get_letters():
+def get_letters_all():
     letters = list(letters_collection.find({}, {'_id': 0}))
     return jsonify(letters)
 
