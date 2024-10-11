@@ -55,37 +55,10 @@ def post_letter():
 
 # api to get all poems
 @app.route("/poems", methods=['GET'])
-def get_poems():
-    page = int(request.args.get('page', 1))  # Default to page 1
-    limit = int(request.args.get('limit', 15))  # Default limit is 15
-
-    # Total number of poems
-    total_poems = poems_collection.count_documents({})
-    
-    # Total pages
-    total_pages = (total_poems + limit - 1) // limit
-
-    # Calculate the correct offset starting from the last element
-    skip = max(total_poems - (page * limit), 0)
-
-    # Fetch poems in reverse order (latest first) using skip and limit
-    poems = list(
-        poems_collection.find({}, {'_id': 0})
-        .sort("time", 1)  # Sort by descending order of insertion (_id used as timestamp)
-        .skip(skip)
-        .limit(limit)
-    )
-
-    # Adjust the returned poems for the last page
-    if page == total_pages:
-        # If it's the last page, adjust the limit to fetch only the remaining poems
-        remaining_poems_count = total_poems - (total_pages - 1) * limit
-        poems = poems[:remaining_poems_count]  # Slice to return only the remaining poems
-
-
+def get_poems_all():
+    poems = list(poems_collection.find({}, {'_id': 0}).sort("time", -1))
     return jsonify({
-        'poems': poems,
-        'total_pages': total_pages
+        'poems': poems
     })
 
 # API to post a new poem
