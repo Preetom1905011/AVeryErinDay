@@ -13,7 +13,7 @@ const getAllPoems = async (req, res) => {
 // Post a new poem
 const postPoem = async (req, res) => {
   try {
-    const newPoem = await Poem.create(req.body)
+    const newPoem = await Poem.insertMany(req.body)
     res.status(200).json(newPoem)
   } catch (error) {
     res.status(400).json({ error: 'Error adding poem' });
