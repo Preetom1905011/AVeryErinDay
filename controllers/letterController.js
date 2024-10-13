@@ -10,7 +10,7 @@ const getAllLetters = async (req, res) => {
   }
 };
 
-// Get all letters, sorted by time, with pagination
+// Get letters, sorted by time, with pagination
 const getLetters = async (req, res) => {
   // Get the page number and limit from query parameters
   const page = parseInt(req.query.page) || 1; // Default to page 1 if not provided
