@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bb33530.css",
-    "main.js": "/static/js/main.38d0de62.js",
+    "main.css": "/static/css/main.1a75c351.css",
+    "main.js": "/static/js/main.27ab3d84.js",
     "static/media/football_all.jpg": "/static/media/football_all.5a0813eba818a8289d43.jpg",
     "static/media/kinds_of_kindness.jpg": "/static/media/kinds_of_kindness.3f4c9e322216ddfb6b35.jpg",
     "static/media/bj_trans1.jpg": "/static/media/bj_trans1.d894fc106177466ce3ea.jpg",
@@ -19,12 +19,21 @@
     "static/media/inside_out2_car.jpg": "/static/media/inside_out2_car.cad4f690cdce6d71da57.jpg",
     "static/media/football2.jpg": "/static/media/football2.7349928446a69c441f48.jpg",
     "static/media/ham_names.jpg": "/static/media/ham_names.4ae23e3d38fb82ba4d21.jpg",
+    "static/media/frog_card.png": "/static/media/frog_card.91f2c366c7b5204a86b2.png",
+    "static/media/pipcard.png": "/static/media/pipcard.4104277fdab523322442.png",
+    "static/media/frog_blue.png": "/static/media/frog_blue.c41dd6068feaf0e42549.png",
+    "static/media/ENVELOPE.png": "/static/media/ENVELOPE.aa5bc7343bea5b643552.png",
+    "static/media/boba_left.png": "/static/media/boba_left.22c574fece5caedb962b.png",
+    "static/media/boba_right.png": "/static/media/boba_right.2602cc585ebf1278df53.png",
+    "static/media/Sticker_sketch_right.png": "/static/media/Sticker_sketch_right.c522ca36d8a5522587ad.png",
+    "static/media/Sticker_sketch_left.png": "/static/media/Sticker_sketch_left.ac6842ddea526d7fa389.png",
+    "static/media/Coraline_Stand.png": "/static/media/Coraline_Stand.48c5b8fa9cf69e37cd8b.png",
     "index.html": "/index.html",
-    "main.3bb33530.css.map": "/static/css/main.3bb33530.css.map",
-    "main.38d0de62.js.map": "/static/js/main.38d0de62.js.map"
+    "main.1a75c351.css.map": "/static/css/main.1a75c351.css.map",
+    "main.27ab3d84.js.map": "/static/js/main.27ab3d84.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bb33530.css",
-    "static/js/main.38d0de62.js"
+    "static/css/main.1a75c351.css",
+    "static/js/main.27ab3d84.js"
   ]
 }
