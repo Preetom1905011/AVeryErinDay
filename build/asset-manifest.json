@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3d8bfc3.css",
-    "main.js": "/static/js/main.c68b5605.js",
+    "main.css": "/static/css/main.d36b89d2.css",
+    "main.js": "/static/js/main.1e817d8f.js",
     "static/media/football_all.jpg": "/static/media/football_all.5a0813eba818a8289d43.jpg",
     "static/media/kinds_of_kindness.jpg": "/static/media/kinds_of_kindness.3f4c9e322216ddfb6b35.jpg",
     "static/media/bj_trans1.jpg": "/static/media/bj_trans1.d894fc106177466ce3ea.jpg",
@@ -29,11 +29,11 @@
     "static/media/Sticker_sketch_left.png": "/static/media/Sticker_sketch_left.ac6842ddea526d7fa389.png",
     "static/media/Coraline_Stand.png": "/static/media/Coraline_Stand.48c5b8fa9cf69e37cd8b.png",
     "index.html": "/index.html",
-    "main.c3d8bfc3.css.map": "/static/css/main.c3d8bfc3.css.map",
-    "main.c68b5605.js.map": "/static/js/main.c68b5605.js.map"
+    "main.d36b89d2.css.map": "/static/css/main.d36b89d2.css.map",
+    "main.1e817d8f.js.map": "/static/js/main.1e817d8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d8bfc3.css",
-    "static/js/main.c68b5605.js"
+    "static/css/main.d36b89d2.css",
+    "static/js/main.1e817d8f.js"
   ]
 }
