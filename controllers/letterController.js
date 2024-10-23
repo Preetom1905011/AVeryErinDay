@@ -18,16 +18,17 @@ const getLetters = async (req, res) => {
 
   // Calculate the number of documents to skip
   const skip = (page - 1) * limit;
+  const currentTime = new Date();
 
   try {
     // Fetch letters with pagination
-    const letters = await Letter.find({})
+    const letters = await Letter.find({time: {$lte: currentTime}})
       .sort({ time: -1 })
       .skip(skip)
       .limit(limit);
 
     // Get the total count of letters for pagination info
-    const totalLetters = await Letter.countDocuments({});
+    const totalLetters = await Letter.countDocuments({time: {$lte: currentTime}});
 
     // Send the letters along with pagination info
     res.status(200).json({
