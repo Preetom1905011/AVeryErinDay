@@ -1,8 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const { createServer } = require("http");
-const { Server } = require("socket.io");
 const connectDB = require("./config/db");
 
 
@@ -37,40 +35,8 @@ app.use("/letters", require("./routes/letters"));
 app.use("/poems", require("./routes/poems"));
 // app.use("/trigger-message", require("./routes/message"))
 
-// Create the HTTP server
-const httpServer = createServer(app);
-
-// Set up Socket.IO server
-const io = new Server(httpServer, {
-  cors: {
-    origin: "*",
-  },
-});
-
-io.on("connection", (socket) => {
-  console.log(`Client connected: ${socket.id}`);
-
-  socket.on("newLetter", async (data) => {
-    const newLetter = data.newLetter;
-    const limit = data.limit;
-
-    // Insert the new letter into the collection
-    const letter = await Letter.create(newLetter)
-
-    const totalLetters = await Letter.countDocuments({});
-    const totalPages = Math.ceil(totalLetters / limit);
-
-    // Broadcast the new letter to all connected clients
-    io.emit("newLetter", { newLetter: letter, total_pages: totalPages });
-  });
-
-  socket.on("disconnect", () => {
-    console.log("Client disconnected");
-  });
-});
-
 // Start the server
 const PORT = process.env.PORT || 5000;
-httpServer.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
