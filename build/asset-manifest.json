@@ -1,24 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c6b7860b.css",
-    "main.js": "/static/js/main.de491892.js",
-    "static/media/football_all.jpg": "/static/media/football_all.5a0813eba818a8289d43.jpg",
-    "static/media/kinds_of_kindness.jpg": "/static/media/kinds_of_kindness.3f4c9e322216ddfb6b35.jpg",
-    "static/media/bj_trans1.jpg": "/static/media/bj_trans1.d894fc106177466ce3ea.jpg",
-    "static/media/mekong.jpg": "/static/media/mekong.6910df2e4a89b4abfd74.jpg",
-    "static/media/street_car.jpg": "/static/media/street_car.390f46497466992de695.jpg",
-    "static/media/boba_single.jpg": "/static/media/boba_single.33a2dae33e760c5f0337.jpg",
-    "static/media/eclipse.jpg": "/static/media/eclipse.dde70ee616b90f6604c6.jpg",
-    "static/media/inside_out2.jpg": "/static/media/inside_out2.ad5025dbe7b5a6aa7a01.jpg",
-    "static/media/bj_trans1_sad.jpg": "/static/media/bj_trans1_sad.716c8d3f075d98f93c9b.jpg",
-    "static/media/madge.jpg": "/static/media/madge.9a8a1ffea802056e6c4f.jpg",
-    "static/media/ham_head.jpg": "/static/media/ham_head.437b5a4b4546394bb880.jpg",
-    "static/media/hand.jpg": "/static/media/hand.88701e9cd45ca3d04bfc.jpg",
-    "static/media/boba_sad.jpg": "/static/media/boba_sad.22c9329fc76b5c7c5fc4.jpg",
-    "static/media/boba_bench.jpg": "/static/media/boba_bench.0bdd51b868543f455c86.jpg",
-    "static/media/inside_out2_car.jpg": "/static/media/inside_out2_car.cad4f690cdce6d71da57.jpg",
-    "static/media/football2.jpg": "/static/media/football2.7349928446a69c441f48.jpg",
-    "static/media/ham_names.jpg": "/static/media/ham_names.4ae23e3d38fb82ba4d21.jpg",
+    "main.css": "/static/css/main.2c1b3e05.css",
+    "main.js": "/static/js/main.b0f19875.js",
     "static/media/frog_card.png": "/static/media/frog_card.91f2c366c7b5204a86b2.png",
     "static/media/pipcard.png": "/static/media/pipcard.4104277fdab523322442.png",
     "static/media/frog_blue.png": "/static/media/frog_blue.c41dd6068feaf0e42549.png",
@@ -29,11 +12,11 @@
     "static/media/Sticker_sketch_left.png": "/static/media/Sticker_sketch_left.ac6842ddea526d7fa389.png",
     "static/media/Coraline_Stand.png": "/static/media/Coraline_Stand.48c5b8fa9cf69e37cd8b.png",
     "index.html": "/index.html",
-    "main.c6b7860b.css.map": "/static/css/main.c6b7860b.css.map",
-    "main.de491892.js.map": "/static/js/main.de491892.js.map"
+    "main.2c1b3e05.css.map": "/static/css/main.2c1b3e05.css.map",
+    "main.b0f19875.js.map": "/static/js/main.b0f19875.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b7860b.css",
-    "static/js/main.de491892.js"
+    "static/css/main.2c1b3e05.css",
+    "static/js/main.b0f19875.js"
   ]
 }
