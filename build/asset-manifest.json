@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c1b3e05.css",
-    "main.js": "/static/js/main.b0f19875.js",
+    "main.css": "/static/css/main.e6c0fe50.css",
+    "main.js": "/static/js/main.ec3a7f9c.js",
+    "static/media/jinx.png": "/static/media/jinx.773dfe43610ace79a218.png",
     "static/media/frog_card.png": "/static/media/frog_card.91f2c366c7b5204a86b2.png",
     "static/media/pipcard.png": "/static/media/pipcard.4104277fdab523322442.png",
     "static/media/frog_blue.png": "/static/media/frog_blue.c41dd6068feaf0e42549.png",
@@ -12,11 +13,11 @@
     "static/media/Sticker_sketch_left.png": "/static/media/Sticker_sketch_left.ac6842ddea526d7fa389.png",
     "static/media/Coraline_Stand.png": "/static/media/Coraline_Stand.48c5b8fa9cf69e37cd8b.png",
     "index.html": "/index.html",
-    "main.2c1b3e05.css.map": "/static/css/main.2c1b3e05.css.map",
-    "main.b0f19875.js.map": "/static/js/main.b0f19875.js.map"
+    "main.e6c0fe50.css.map": "/static/css/main.e6c0fe50.css.map",
+    "main.ec3a7f9c.js.map": "/static/js/main.ec3a7f9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c1b3e05.css",
-    "static/js/main.b0f19875.js"
+    "static/css/main.e6c0fe50.css",
+    "static/js/main.ec3a7f9c.js"
   ]
 }
